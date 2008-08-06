@@ -1,0 +1,5 @@
+inherit distutils
+
+DESCRIPTION="GNOME terminal with split-window and tabs capabilities"
+HOMEPAGE="http://www.tenshu.net/terminator/"
+SRC_URI="http://launchpad.net/terminator/trunk/${PV}/+download/${PN}_${PV}.tar.gz"

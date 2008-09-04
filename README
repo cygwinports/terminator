@@ -1,0 +1,153 @@
+terminator
+------------------------------------------
+The goal of this project is to produce a useful tool for arranging 
+terminals. It is inspired by programs such as gnome-multi-term, 
+quadkonsole, etc. in that the main focus is arranging terminals in grids 
+(tabs is the most common default method, which Terminator also 
+supports).
+
+Runtime requirements:
+  python-2.5.2-3
+  python-gconf2-2.22.1-1
+  python-gnome2-2.22.1-1
+  python-gobject-2.14.2-1
+  python-gtk2-2.12.1-1
+  python-vte-0.16.14-1
+
+Build requirements:
+  cygport-0.4.0-1
+  python-2.5.2-3
+
+Canonical website:
+  http://www.tenshu.net/terminator/
+
+Canonical download:
+  https://launchpad.net/terminator/+download
+
+-------------------------------------------
+
+Build instructions:
+  unpack terminator-0.10-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./terminator-0.10-X.cygport all
+
+This will create:
+  /usr/src/terminator-0.10-X-src.tar.bz2
+  /usr/src/terminator-0.10-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /etc/postinstall/terminator.sh
+  /usr/bin/terminator
+  /usr/lib/python2.5/site-packages/Terminator-0.10-py2.5.egg-info
+  /usr/lib/python2.5/site-packages/terminatorlib/__init__.py
+  /usr/lib/python2.5/site-packages/terminatorlib/__init__.pyc
+  /usr/lib/python2.5/site-packages/terminatorlib/__init__.pyo
+  /usr/lib/python2.5/site-packages/terminatorlib/config.py
+  /usr/lib/python2.5/site-packages/terminatorlib/config.pyc
+  /usr/lib/python2.5/site-packages/terminatorlib/config.pyo
+  /usr/lib/python2.5/site-packages/terminatorlib/configfile.py
+  /usr/lib/python2.5/site-packages/terminatorlib/configfile.pyc
+  /usr/lib/python2.5/site-packages/terminatorlib/configfile.pyo
+  /usr/lib/python2.5/site-packages/terminatorlib/debugserver.py
+  /usr/lib/python2.5/site-packages/terminatorlib/debugserver.pyc
+  /usr/lib/python2.5/site-packages/terminatorlib/debugserver.pyo
+  /usr/lib/python2.5/site-packages/terminatorlib/encoding.py
+  /usr/lib/python2.5/site-packages/terminatorlib/encoding.pyc
+  /usr/lib/python2.5/site-packages/terminatorlib/encoding.pyo
+  /usr/lib/python2.5/site-packages/terminatorlib/freebsd.py
+  /usr/lib/python2.5/site-packages/terminatorlib/freebsd.pyc
+  /usr/lib/python2.5/site-packages/terminatorlib/freebsd.pyo
+  /usr/lib/python2.5/site-packages/terminatorlib/keybindings.py
+  /usr/lib/python2.5/site-packages/terminatorlib/keybindings.pyc
+  /usr/lib/python2.5/site-packages/terminatorlib/keybindings.pyo
+  /usr/lib/python2.5/site-packages/terminatorlib/prefs_profile.py
+  /usr/lib/python2.5/site-packages/terminatorlib/prefs_profile.pyc
+  /usr/lib/python2.5/site-packages/terminatorlib/prefs_profile.pyo
+  /usr/lib/python2.5/site-packages/terminatorlib/terminator.py
+  /usr/lib/python2.5/site-packages/terminatorlib/terminator.pyc
+  /usr/lib/python2.5/site-packages/terminatorlib/terminator.pyo
+  /usr/lib/python2.5/site-packages/terminatorlib/terminatorterm.py
+  /usr/lib/python2.5/site-packages/terminatorlib/terminatorterm.pyc
+  /usr/lib/python2.5/site-packages/terminatorlib/terminatorterm.pyo
+  /usr/lib/python2.5/site-packages/terminatorlib/version.py
+  /usr/lib/python2.5/site-packages/terminatorlib/version.pyc
+  /usr/lib/python2.5/site-packages/terminatorlib/version.pyo
+  /usr/share/applications/terminator.desktop
+  /usr/share/doc/terminator-0.10/COPYING
+  /usr/share/doc/terminator-0.10/ChangeLog
+  /usr/share/doc/terminator-0.10/INSTALL
+  /usr/share/doc/terminator-0.10/README
+  /usr/share/doc/terminator-0.10/TODO
+  /usr/share/icons/hicolor/16x16/actions/terminator_horiz.png
+  /usr/share/icons/hicolor/16x16/actions/terminator_vert.png
+  /usr/share/icons/hicolor/16x16/apps/terminator.png
+  /usr/share/icons/hicolor/22x22/apps/terminator.png
+  /usr/share/icons/hicolor/24x24/apps/terminator.png
+  /usr/share/icons/hicolor/48x48/apps/terminator.png
+  /usr/share/icons/hicolor/scalable/apps/terminator.svg
+  /usr/share/locale/ar/LC_MESSAGES/terminator.mo
+  /usr/share/locale/bg/LC_MESSAGES/terminator.mo
+  /usr/share/locale/ca/LC_MESSAGES/terminator.mo
+  /usr/share/locale/cs/LC_MESSAGES/terminator.mo
+  /usr/share/locale/da/LC_MESSAGES/terminator.mo
+  /usr/share/locale/de/LC_MESSAGES/terminator.mo
+  /usr/share/locale/el/LC_MESSAGES/terminator.mo
+  /usr/share/locale/en_CA/LC_MESSAGES/terminator.mo
+  /usr/share/locale/en_GB/LC_MESSAGES/terminator.mo
+  /usr/share/locale/eo/LC_MESSAGES/terminator.mo
+  /usr/share/locale/es/LC_MESSAGES/terminator.mo
+  /usr/share/locale/et/LC_MESSAGES/terminator.mo
+  /usr/share/locale/eu/LC_MESSAGES/terminator.mo
+  /usr/share/locale/fa/LC_MESSAGES/terminator.mo
+  /usr/share/locale/fi/LC_MESSAGES/terminator.mo
+  /usr/share/locale/fr/LC_MESSAGES/terminator.mo
+  /usr/share/locale/fy/LC_MESSAGES/terminator.mo
+  /usr/share/locale/ga/LC_MESSAGES/terminator.mo
+  /usr/share/locale/he/LC_MESSAGES/terminator.mo
+  /usr/share/locale/hi/LC_MESSAGES/terminator.mo
+  /usr/share/locale/hu/LC_MESSAGES/terminator.mo
+  /usr/share/locale/id/LC_MESSAGES/terminator.mo
+  /usr/share/locale/it/LC_MESSAGES/terminator.mo
+  /usr/share/locale/ja/LC_MESSAGES/terminator.mo
+  /usr/share/locale/ko/LC_MESSAGES/terminator.mo
+  /usr/share/locale/lt/LC_MESSAGES/terminator.mo
+  /usr/share/locale/lv/LC_MESSAGES/terminator.mo
+  /usr/share/locale/mr/LC_MESSAGES/terminator.mo
+  /usr/share/locale/ms/LC_MESSAGES/terminator.mo
+  /usr/share/locale/nb/LC_MESSAGES/terminator.mo
+  /usr/share/locale/nl/LC_MESSAGES/terminator.mo
+  /usr/share/locale/nn/LC_MESSAGES/terminator.mo
+  /usr/share/locale/pl/LC_MESSAGES/terminator.mo
+  /usr/share/locale/pt/LC_MESSAGES/terminator.mo
+  /usr/share/locale/pt_BR/LC_MESSAGES/terminator.mo
+  /usr/share/locale/ro/LC_MESSAGES/terminator.mo
+  /usr/share/locale/ru/LC_MESSAGES/terminator.mo
+  /usr/share/locale/sk/LC_MESSAGES/terminator.mo
+  /usr/share/locale/sq/LC_MESSAGES/terminator.mo
+  /usr/share/locale/sv/LC_MESSAGES/terminator.mo
+  /usr/share/locale/ta/LC_MESSAGES/terminator.mo
+  /usr/share/locale/te/LC_MESSAGES/terminator.mo
+  /usr/share/locale/tr/LC_MESSAGES/terminator.mo
+  /usr/share/locale/uk/LC_MESSAGES/terminator.mo
+  /usr/share/locale/zh_CN/LC_MESSAGES/terminator.mo
+  /usr/share/locale/zh_HK/LC_MESSAGES/terminator.mo
+  /usr/share/locale/zh_TW/LC_MESSAGES/terminator.mo
+  /usr/share/man/man1/terminator.1.gz
+  /usr/share/man/man5/terminator_config.5.gz
+  /usr/share/pixmaps/terminator.png
+
+------------------
+
+Port Notes:
+
+----- version 0.10-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/

@@ -7,16 +7,16 @@ quadkonsole, etc. in that the main focus is arranging terminals in grids
 supports).
 
 Runtime requirements:
-  python-2.5.2-3
-  python-gconf2-2.22.1-1
-  python-gnome2-2.22.1-1
-  python-gobject-2.14.2-1
-  python-gtk2-2.12.1-1
-  python-vte-0.16.14-1
+  python-2.5.4-1
+  python-gconf2-2.22.3-1
+  python-gnome2-2.22.3-1
+  python-gobject-2.16.0-1
+  python-gtk2-2.14.0-1
+  python-vte-0.17.4-1
 
 Build requirements:
-  cygport-0.4.0-1
-  python-2.5.2-3
+  cygport-0.4.3-1
+  python-2.5.4-1
 
 Canonical website:
   http://www.tenshu.net/terminator/
@@ -27,15 +27,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack terminator-0.10-X-src.tar.bz2
+  unpack terminator-0.12-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./terminator-0.10-X.cygport all
+  cygport ./terminator-0.12-X.cygport all
 
 This will create:
-  /usr/src/terminator-0.10-X-src.tar.bz2
-  /usr/src/terminator-0.10-X.tar.bz2
+  /usr/src/terminator-0.12-X-src.tar.bz2
+  /usr/src/terminator-0.12-X.tar.bz2
 
 -------------------------------------------
 
@@ -43,7 +43,7 @@ Files included in the binary package:
 
   /etc/postinstall/terminator.sh
   /usr/bin/terminator
-  /usr/lib/python2.5/site-packages/Terminator-0.10-py2.5.egg-info
+  /usr/lib/python2.5/site-packages/Terminator-0.12-py2.5.egg-info
   /usr/lib/python2.5/site-packages/terminatorlib/__init__.py
   /usr/lib/python2.5/site-packages/terminatorlib/__init__.pyc
   /usr/lib/python2.5/site-packages/terminatorlib/__init__.pyo
@@ -74,21 +74,25 @@ Files included in the binary package:
   /usr/lib/python2.5/site-packages/terminatorlib/terminatorterm.py
   /usr/lib/python2.5/site-packages/terminatorlib/terminatorterm.pyc
   /usr/lib/python2.5/site-packages/terminatorlib/terminatorterm.pyo
+  /usr/lib/python2.5/site-packages/terminatorlib/tests.py
+  /usr/lib/python2.5/site-packages/terminatorlib/tests.pyc
+  /usr/lib/python2.5/site-packages/terminatorlib/tests.pyo
   /usr/lib/python2.5/site-packages/terminatorlib/version.py
   /usr/lib/python2.5/site-packages/terminatorlib/version.pyc
   /usr/lib/python2.5/site-packages/terminatorlib/version.pyo
   /usr/share/applications/terminator.desktop
-  /usr/share/doc/terminator-0.10/COPYING
-  /usr/share/doc/terminator-0.10/ChangeLog
-  /usr/share/doc/terminator-0.10/INSTALL
-  /usr/share/doc/terminator-0.10/README
-  /usr/share/doc/terminator-0.10/TODO
+  /usr/share/doc/terminator-0.12/COPYING
+  /usr/share/doc/terminator-0.12/ChangeLog
+  /usr/share/doc/terminator-0.12/INSTALL
+  /usr/share/doc/terminator-0.12/README
+  /usr/share/doc/terminator-0.12/TODO
   /usr/share/icons/hicolor/16x16/actions/terminator_horiz.png
   /usr/share/icons/hicolor/16x16/actions/terminator_vert.png
   /usr/share/icons/hicolor/16x16/apps/terminator.png
   /usr/share/icons/hicolor/22x22/apps/terminator.png
   /usr/share/icons/hicolor/24x24/apps/terminator.png
   /usr/share/icons/hicolor/48x48/apps/terminator.png
+  /usr/share/icons/hicolor/icon-theme.cache
   /usr/share/icons/hicolor/scalable/apps/terminator.svg
   /usr/share/locale/ar/LC_MESSAGES/terminator.mo
   /usr/share/locale/bg/LC_MESSAGES/terminator.mo
@@ -117,6 +121,7 @@ Files included in the binary package:
   /usr/share/locale/ko/LC_MESSAGES/terminator.mo
   /usr/share/locale/lt/LC_MESSAGES/terminator.mo
   /usr/share/locale/lv/LC_MESSAGES/terminator.mo
+  /usr/share/locale/mk/LC_MESSAGES/terminator.mo
   /usr/share/locale/mr/LC_MESSAGES/terminator.mo
   /usr/share/locale/ms/LC_MESSAGES/terminator.mo
   /usr/share/locale/nb/LC_MESSAGES/terminator.mo
@@ -144,6 +149,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 0.12-1 -----
+Version bump.
 
 ----- version 0.10-1 -----
 Initial release for Cygwin.

@@ -1,5 +1,5 @@
 category: Gnome Shells
-requires: python python-gconf2 python-gnome2 python-gobject2 python-gtk2 python-vte
+requires: python python-gconf2 python-gobject2.0 python-gtk2.0 python-vte
 sdesc: "Organizes multiple virtual terminals in grids or tabs"
 ldesc: "The goal of this project is to produce a useful tool for 
 arranging terminals. It is inspired by programs such as 

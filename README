@@ -7,16 +7,16 @@ quadkonsole, etc. in that the main focus is arranging terminals in grids
 supports).
 
 Runtime requirements:
-  python-2.5.4-10
-  python-gconf2-2.28.0-1
-  python-gnome2-2.28.0-1  (optional)
-  python-gobject2.0-2.20.0-1
-  python-gtk2.0-2.16.0-1
-  python-vte-0.22.5-1
+  python-2.6.5-1
+  python-gconf2-2.28.1-1
+  python-gnome2-2.28.1-1  (optional)
+  python-gobject2.0-2.20.0-2
+  python-gtk2.0-2.16.0-2
+  python-vte-0.22.5-2
 
 Build requirements:
-  cygport-0.9.10-1
-  python-2.5.4-10
+  cygport-0.9.84-1
+  python-2.6.5-1
 
 Canonical website:
   http://www.tenshu.net/terminator/
@@ -27,19 +27,22 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack terminator-0.14-X-src.tar.bz2
+  unpack terminator-0.93-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./terminator-0.14-X.cygport all
+  cygport ./terminator-0.93-X.cygport all
 
 This will create:
-  /usr/src/terminator-0.14-X-src.tar.bz2
-  /usr/src/terminator-0.14-X.tar.bz2
+  /usr/src/terminator-0.93-X-src.tar.bz2
+  /usr/src/terminator-0.93-X.tar.bz2
 
 -------------------------------------------
 
 Port Notes:
+
+----- version 0.93-1 -----
+Version bump, built for Python 2.6.
 
 ----- version 0.14-1 -----
 Initial release for Cygwin 1.7.

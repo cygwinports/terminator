@@ -1,8 +1,0 @@
-category: Gnome Shells
-requires: python python-dbus python-gconf2 python-gobject python-gtk2.0 python-pynotify python-vte
-sdesc: "Organizes multiple virtual terminals in grids or tabs"
-ldesc: "The goal of this project is to produce a useful tool for 
-arranging terminals. It is inspired by programs such as 
-gnome-multi-term, quadkonsole, etc. in that the main focus is arranging 
-terminals in grids (tabs is the most common default method, which 
-Terminator also supports)."
